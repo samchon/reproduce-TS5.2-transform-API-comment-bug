@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "reproduce-ts5.2-transform-api-comment-bug",
+  "version": "0.1.0",
+  "description": "Reproduce ts.getJSDocTags() bug erasing comment property.",
+  "scripts": {
+    "test": "npx tsc --allowPlugins"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samchon/reproduce-TS5.2-transform-API-comment-bug"
+  },
+  "author": "Jeongho Nam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samchon/reproduce-TS5.2-transform-API-comment-bug/issues"
+  },
+  "homepage": "https://github.com/samchon/reproduce-TS5.2-transform-API-comment-bug#readme",
+  "devDependencies": {
+    "typescript": "https://typescript.visualstudio.com/cf7ac146-d525-443c-b23c-0d58337efebc/_apis/build/builds/154373/artifacts?artifactName=tgz&fileId=E84F858A7DB193E4718B04B36E180E9732E1BF8E0B89865EB1560119CDC550DA02&fileName=/typescript-5.2.0-insiders.20230516.tgz"
+  }
+}
