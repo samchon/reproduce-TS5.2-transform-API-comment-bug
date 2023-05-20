@@ -4,5 +4,5 @@ Reproduce `ts.getJSDocTags()` bug erasing `comment` property.
 
 ```bash
 npm install
-npm run test
+npm start
 ```
