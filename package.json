@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "description": "Reproduce ts.getJSDocTags() bug erasing comment property.",
   "scripts": {
-    "test": "npx tsc --allowPlugins"
+    "start": "npx tsc --allowPlugins"
   },
   "repository": {
     "type": "git",
