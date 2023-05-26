@@ -7,10 +7,15 @@ export interface ISomething {
     /**
      * @type uint
      */
-    uint: number;
+    unsigned: number;
 
     /**
      * @type int64
      */
-    int64: number;
+    bigint: number;
+
+    /**
+     * @type number
+     */
+    int32: number;
 }
